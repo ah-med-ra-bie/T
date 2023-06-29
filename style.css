@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(234, 12%, 34%);
+    padding: 35px;
+}
+
+header {
+    text-align: center;
+}
+
+header h2 {
+    font-size: 25px;
+    padding: 20px 0;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+span {
+    font-weight: 700;
+}
+
+header p {
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 500;
+}
+
+.card {
+    width: 310px;
+    height: 200px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px -1px #00000094;
+    padding: 15px;
+    margin: 20px auto;
+}
+
+.box .one {
+    border-top: #00c8c8 solid 5px;
+
+}
+
+.box .two {
+    border-top: #e63950 solid 5px;
+
+}
+
+.box .tree {
+    border-top: #ff9100 solid 5px;
+
+}
+
+.box .four {
+    border-top: #377fd2 solid 5px;
+
+}
+.card h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.card p{
+    padding-bottom: 40px;
+
+}
+.card img{
+    height: 55px;
+    padding-left: 190px;
+}
+
+
+@media (min-width:800px) {
+    header h2 {
+        font-size: 25px;
+    }
+    header p {
+        font-size: 20px;
+        padding: 10px 150px;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        padding: 20px;
+        margin: 40px 20px;
+        width: 280px;
+        height: 200px;
+    }
+    .card h3 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .card p {
+        padding-bottom: 30px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .card img {
+        height: 50px;
+        padding-left: 175px;
+    }
+}
